@@ -1,0 +1,9 @@
+var baseScale float64
+onStart => { baseScale = size }
+onMsg "frame", => {
+    if baseScale == 0 { baseScale = size }
+    if Screen == 0 {
+        show
+        if pointerInside(mouseX, mouseY, xpos, ypos, 2172*baseScale, 724*baseScale) { setSize(baseScale * 1.06) } else { setSize baseScale }
+    } else { hide; setSize baseScale }
+}

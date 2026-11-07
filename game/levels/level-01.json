@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "name": "Ice route",
+  "columns": 6,
+  "rows": 5,
+  "legend": {".": "ice", "#": "rock", "~": "water", "H": "home", "P": "start"},
+  "grid": ["..~#H.", "#....#", "....#.", ".~....", "P....."],
+  "solution": ["up", "right", "up", "right", "up"],
+  "expected_moves": 5
+}

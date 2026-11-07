@@ -1,0 +1,287 @@
+// Penguin Home Journey: phase 2, one fixed puzzle. All UI text is English.
+// Logical cell transitions are authoritative; sprite animation never decides collisions.
+var (
+    Screen int // 0 home, 1 playing, 2 lost, 3 won
+    Moves int
+    Level int
+    FallKind int
+    Muted bool
+    LastMute bool
+    AudioScreen int
+    AudioMoves int
+    AudioMoving bool
+    LevelCells [30]int // 0 ice, 1 rock, 2 water, 3 goal
+    Col int
+    Row int
+    TargetCol int
+    TargetRow int
+    DirectionX int
+    DirectionY int
+    Moving bool
+    Progress float64
+    PlayerX float64
+    PlayerY float64
+    EndTime float64
+    InputReady bool
+    LastUp bool
+    LastDown bool
+    LastLeft bool
+    LastRight bool
+    LastMouse bool
+    LastRetry bool
+    LastHome bool
+    LastEnter bool
+)
+
+// CORE-BEGIN: these exact functions are also executed by the Go regression tests.
+func cellX(c int) float64 { return -189.0 + float64(c)*46.0 }
+func cellY(r int) float64 { return 75.0 - float64(r)*46.0 }
+
+func tileAt(c int, r int) int {
+    if c < 0 || c >= 6 || r < 0 || r >= 5 { return -1 }
+    return LevelCells[r*6+c]
+}
+
+func loadLevel() {
+    // LEVEL-DATA-BEGIN (generated from game/levels/level-*.json)
+    if Level == 1 {
+        LevelCells = [30]int{0,0,2,1,3,0,1,0,0,0,0,1,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0}
+        Col = 0
+        Row = 4
+    } else if Level == 2 {
+        LevelCells = [30]int{0,0,2,1,0,0,1,0,3,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0}
+        Col = 2
+        Row = 3
+    } else if Level == 3 {
+        LevelCells = [30]int{0,0,0,0,0,0,0,0,1,0,0,0,3,0,0,1,2,0,0,0,0,1,0,0,0,1,0,0,0,0}
+        Col = 1
+        Row = 0
+    } else if Level == 4 {
+        LevelCells = [30]int{1,0,0,3,1,0,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0}
+        Col = 2
+        Row = 3
+    } else {
+        LevelCells = [30]int{0,0,1,3,0,0,0,0,0,0,1,2,2,0,0,0,0,1,0,0,0,1,0,1,1,1,1,0,2,0}
+        Col = 0
+        Row = 0
+    }
+    // LEVEL-DATA-END
+}
+
+func resetLevel() {
+    if Level < 1 || Level > 5 { Level = 1 }
+    loadLevel()
+    TargetCol = Col
+    TargetRow = Row
+    DirectionX = 0
+    DirectionY = 0
+    Moves = 0
+    Moving = false
+    Progress = 0
+    EndTime = 0
+    FallKind = 0
+    Screen = 1
+    PlayerX = cellX(Col)
+    PlayerY = cellY(Row)
+    InputReady = false
+}
+
+func goHome() {
+    Level = 1
+    resetLevel()
+    Screen = 0
+}
+
+func nextLevel() {
+    if Level < 5 {
+        Level++
+        resetLevel()
+    } else {
+        goHome()
+    }
+}
+
+func beginSegment() {
+    TargetCol = Col + DirectionX
+    TargetRow = Row + DirectionY
+    Progress = 0
+    if tileAt(TargetCol, TargetRow) == 1 {
+        Moving = false
+        TargetCol = Col
+        TargetRow = Row
+    }
+}
+
+func requestMove(dx int, dy int) bool {
+    if Screen != 1 || Moving { return false }
+    if !((dx == 0 && (dy == 1 || dy == -1)) || (dy == 0 && (dx == 1 || dx == -1))) { return false }
+    if tileAt(Col+dx, Row+dy) == 1 { return false }
+    DirectionX = dx
+    DirectionY = dy
+    Moves++
+    Moving = true
+    beginSegment()
+    return true
+}
+
+func advance(dt float64) {
+    if dt < 0 { return }
+    if Screen == 2 || Screen == 3 { EndTime += dt }
+    if Screen != 1 || !Moving { return }
+    // Consume complete cells as well as the fraction left over in the frame.
+    remaining := dt
+    for Moving && remaining > 0 {
+        needed := (1.0-Progress)*0.14
+        consumed := remaining
+        if consumed > needed { consumed = needed }
+        Progress += consumed/0.14
+        remaining -= consumed
+        if Progress > 1 { Progress = 1 }
+        PlayerX = cellX(Col) + float64(TargetCol-Col)*46.0*Progress
+        PlayerY = cellY(Row) - float64(TargetRow-Row)*46.0*Progress
+        if Progress < 0.999999 { return }
+        Col = TargetCol
+        Row = TargetRow
+        PlayerX = cellX(Col)
+        PlayerY = cellY(Row)
+        kind := tileAt(Col, Row)
+        if kind == -1 || kind == 2 {
+            FallKind = kind
+            Moving = false
+            Screen = 2
+            EndTime = 0
+            InputReady = false
+            return
+        }
+        if kind == 3 {
+            Moving = false
+            Screen = 3
+            EndTime = 0
+            InputReady = false
+            return
+        }
+        beginSegment()
+    }
+}
+// Geometry receives current object coordinates and dimensions, never fixed stage boxes.
+func pointerInside(mx float64, my float64, cx float64, cy float64, w float64, h float64) bool {
+    return w > 0 && h > 0 && mx >= cx-w/2 && mx <= cx+w/2 && my >= cy-h/2 && my <= cy+h/2
+}
+// CORE-END
+
+func toggleAudio() {
+    Muted = !Muted
+    stopAllSounds
+    AudioScreen = -1
+    AudioMoves = Moves
+}
+
+func clickFeedback() {
+    if !Muted { play "ClickSound" }
+}
+
+func pointerInput() {
+    if (!Muted && pointerInside(mouseX, mouseY, SoundOnButton.xpos, SoundOnButton.ypos, 276*SoundOnButton.size, 120*SoundOnButton.size)) || (Muted && pointerInside(mouseX, mouseY, SoundOffButton.xpos, SoundOffButton.ypos, 276*SoundOffButton.size, 120*SoundOffButton.size)) { toggleAudio(); return }
+    if Screen == 0 {
+        if pointerInside(mouseX, mouseY, StartButton.xpos, StartButton.ypos, 2172*StartButton.size, 724*StartButton.size) { clickFeedback(); resetLevel() }
+        return
+    }
+    if Screen == 2 || Screen == 3 {
+        if EndTime < 0.35 { return }
+        if Screen == 2 && pointerInside(mouseX, mouseY, ResultRetryButton.xpos, ResultRetryButton.ypos, 348*ResultRetryButton.size, 120*ResultRetryButton.size) { clickFeedback(); resetLevel(); return }
+        if Screen == 3 && Level < 5 && pointerInside(mouseX, mouseY, NextButton.xpos, NextButton.ypos, 348*NextButton.size, 120*NextButton.size) { clickFeedback(); nextLevel(); return }
+        if Screen == 3 && Level == 5 && pointerInside(mouseX, mouseY, AgainButton.xpos, AgainButton.ypos, 348*AgainButton.size, 120*AgainButton.size) { clickFeedback(); Level = 1; resetLevel(); return }
+        if pointerInside(mouseX, mouseY, ResultHomeButton.xpos, ResultHomeButton.ypos, 348*ResultHomeButton.size, 120*ResultHomeButton.size) { clickFeedback(); goHome(); return }
+        return
+    }
+    if pointerInside(mouseX, mouseY, RetryButton.xpos, RetryButton.ypos, 120*RetryButton.size, 126*RetryButton.size) { clickFeedback(); resetLevel(); return }
+    if pointerInside(mouseX, mouseY, HomeButton.xpos, HomeButton.ypos, 120*HomeButton.size, 126*HomeButton.size) { clickFeedback(); goHome(); return }
+    if pointerInside(mouseX, mouseY, UpButton.xpos, UpButton.ypos, 144*UpButton.size, 150*UpButton.size) { requestMove(0, -1); return }
+    if pointerInside(mouseX, mouseY, LeftButton.xpos, LeftButton.ypos, 144*LeftButton.size, 150*LeftButton.size) { requestMove(-1, 0); return }
+    if pointerInside(mouseX, mouseY, RightButton.xpos, RightButton.ypos, 144*RightButton.size, 150*RightButton.size) { requestMove(1, 0); return }
+    if pointerInside(mouseX, mouseY, DownButton.xpos, DownButton.ypos, 144*DownButton.size, 150*DownButton.size) { requestMove(0, 1); return }
+}
+
+func syncAudio() {
+    if Muted { return }
+    if Screen != AudioScreen {
+        stopPlaying "HomeMusic"
+        stopPlaying "GameMusic"
+        stopPlaying "SlideSound"
+        if Screen == 0 { play "HomeMusic", true }
+        if Screen == 1 { play "GameMusic", true }
+        if AudioScreen == 1 && Screen == 2 {
+            if FallKind == 2 { play "SplashSound" } else { play "EdgeSound" }
+        }
+        if AudioScreen == 1 && Screen == 3 { play "HomeSound" }
+        AudioScreen = Screen
+        AudioMoves = Moves
+    }
+    if Screen == 1 && Moves > AudioMoves { play "SlideSound" }
+    if AudioMoving && !Moving { stopPlaying "SlideSound" }
+    AudioMoves = Moves
+    AudioMoving = Moving
+}
+
+onStart => {
+    resetTimer
+    setVolume 65
+    AudioScreen = -1
+    goHome()
+    lastTime := timer
+    previousScreen := -1
+    previousMoves := -1
+    forever => {
+        now := timer
+        dt := now-lastTime
+        lastTime = now
+        if dt > 0.05 { dt = 0.05 }
+        up := keyPressed(KeyUp)
+        down := keyPressed(KeyDown)
+        left := keyPressed(KeyLeft)
+        right := keyPressed(KeyRight)
+        retry := keyPressed(KeyR)
+        home := keyPressed(KeyEscape)
+        enter := keyPressed(KeyEnter) || keyPressed(KeySpace)
+        muteKey := keyPressed(KeyM)
+        pointer := mousePressed
+        released := !up && !down && !left && !right && !retry && !home && !enter && !pointer
+        if !InputReady && released { InputReady = true }
+        if muteKey && !LastMute { toggleAudio() }
+        if InputReady {
+            if home && !LastHome {
+                goHome()
+            } else if retry && !LastRetry && Screen != 0 {
+                resetLevel()
+            } else if enter && !LastEnter && Screen != 1 {
+                if Screen == 3 { nextLevel() } else { resetLevel() }
+            } else if pointer && !LastMouse {
+                pointerInput()
+            } else if Screen == 1 && !Moving {
+                if up && !LastUp { requestMove(0, -1)
+                } else if down && !LastDown { requestMove(0, 1)
+                } else if left && !LastLeft { requestMove(-1, 0)
+                } else if right && !LastRight { requestMove(1, 0) }
+            }
+        }
+        // Sample even during motion: input during a slide is discarded, never queued.
+        LastUp = up
+        LastDown = down
+        LastLeft = left
+        LastRight = right
+        LastRetry = retry
+        LastHome = home
+        LastEnter = enter
+        LastMouse = pointer
+        LastMute = muteKey
+        advance(dt)
+        syncAudio()
+        broadcastAndWait "frame"
+        if Screen != previousScreen || Moves != previousMoves {
+            println "STATE", Screen, "MOVES", Moves, "CELL", Col, Row, "MOVING", Moving
+            previousScreen = Screen
+            previousMoves = Moves
+        }
+        wait 0.016
+    }
+}

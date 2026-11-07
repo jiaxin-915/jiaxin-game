@@ -1,0 +1,5 @@
+onMsg "frame", => {
+    if Screen == 0 || (Moves < 10000 && 4 > 0) { hide; return }
+    setCostume((Moves / 10000) % 10)
+    show
+}

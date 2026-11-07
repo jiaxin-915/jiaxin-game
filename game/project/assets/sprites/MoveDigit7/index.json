@@ -1,0 +1,135 @@
+{
+  "heading": 90,
+  "x": 19,
+  "y": 144,
+  "size": 0.3333333333333333,
+  "rotationStyle": "none",
+  "physicsMode": "no",
+  "costumeIndex": 0,
+  "visible": false,
+  "isDraggable": false,
+  "collisionPivot": {
+    "x": 0,
+    "y": 0
+  },
+  "collisionShapeType": "rect",
+  "collisionShapeParams": [
+    1,
+    1
+  ],
+  "costumes": [
+    {
+      "name": "0",
+      "path": "0.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "a9f11511804ebff8aef5"
+    },
+    {
+      "name": "1",
+      "path": "1.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "2ac942c312e2e623e242"
+    },
+    {
+      "name": "2",
+      "path": "2.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "09aea2258b9bc93f065b"
+    },
+    {
+      "name": "3",
+      "path": "3.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "0cad296d1254ecb0e31e"
+    },
+    {
+      "name": "4",
+      "path": "4.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "7c0ac30eab49fbda35ae"
+    },
+    {
+      "name": "5",
+      "path": "5.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "adf35d8b87467a43c5c1"
+    },
+    {
+      "name": "6",
+      "path": "6.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "83cb0168e21a949f4609"
+    },
+    {
+      "name": "7",
+      "path": "7.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "265e8c3e6f290b3bedef"
+    },
+    {
+      "name": "8",
+      "path": "8.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "e092c5e95326cb2c84a2"
+    },
+    {
+      "name": "9",
+      "path": "9.png",
+      "x": 15.0,
+      "y": 27.0,
+      "bitmapResolution": 1,
+      "imageWidth": 30,
+      "imageHeight": 54,
+      "faceRight": 0,
+      "builder_id": "1b2b008f2a6c89d42d2f"
+    }
+  ],
+  "fAnimations": {},
+  "animBindings": {},
+  "builder_id": "f3f12e95d0ae8f2812f5"
+}

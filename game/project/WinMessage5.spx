@@ -1,0 +1,3 @@
+onMsg "frame", => {
+    if Screen == 3 && Level == 5 && EndTime >= 0.35 { show } else { hide }
+}

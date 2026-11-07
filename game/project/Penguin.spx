@@ -1,0 +1,10 @@
+onMsg "frame", => {
+    if Screen == 0 { hide; return }
+    setXYpos PlayerX, PlayerY
+    setSize 0.040
+    if Screen == 2 {
+        if EndTime > 0.35 { hide; return }
+        setSize 0.040 * (1.0-EndTime*2.2)
+    }
+    show
+}

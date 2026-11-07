@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="198" viewBox="0 0 300 66">
+<defs>
+ <linearGradient id="ice" x2="0.8" y2="1"><stop stop-color="#f8fdff"/><stop offset="1" stop-color="#d6ecfa"/></linearGradient>
+ <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#d8effd"/><stop offset="1" stop-color="#9fcce7"/></linearGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff0c2"/><stop offset="1" stop-color="#f7d681"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#61afc5"/><stop offset="1" stop-color="#378da8"/></linearGradient>
+</defs><text x="150" y="28" text-anchor="middle" fill="#456488" font-family="Arial Rounded MT Bold,DejaVu Sans,sans-serif" font-weight="bold" font-size="24">Home at last!</text><text x="150" y="55" text-anchor="middle" fill="#456488" font-family="Arial Rounded MT Bold,DejaVu Sans,sans-serif" font-weight="bold" font-size="11">Level 4 complete.</text></svg>

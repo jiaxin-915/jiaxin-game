@@ -1,0 +1,3 @@
+onMsg "frame", => {
+    if Screen != 0 && Level == 4 { show } else { hide }
+}

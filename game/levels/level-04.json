@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "Frozen detour",
+  "columns": 6,
+  "rows": 5,
+  "legend": {".": "ice", "#": "rock", "~": "water", "H": "home", "P": "start"},
+  "grid": ["#..H#.", "..#...", "##...#", "..P...", "~....."],
+  "solution": ["up", "right", "up", "left", "up"],
+  "expected_moves": 5
+}

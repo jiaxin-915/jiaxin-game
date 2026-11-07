@@ -1,0 +1,3 @@
+onMsg "frame", => {
+    if Screen == 2 && FallKind == 2 && EndTime >= 0.35 { show } else { hide }
+}

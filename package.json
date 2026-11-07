@@ -1,0 +1,7 @@
+{
+  "name": "penguin-home-journey-tools",
+  "private": true,
+  "description": "Asset build helpers only. The game itself is XGo/spx.",
+  "scripts": {"render-ui": "node game/tools/render_ui.cjs"},
+  "devDependencies": {"sharp": "0.35.5"}
+}

@@ -1,0 +1,102 @@
+{
+  "sounds": [
+    {
+      "name": "HomeMusic",
+      "file": "assets/audio/HomeMusic.wav",
+      "original": "wintery-loop.wav",
+      "author": "Emma_MA",
+      "source": "https://opengameart.org/content/wintery-loop",
+      "license": "CC0-1.0",
+      "rate": 44100,
+      "frames": 1953922,
+      "duration": 44.307,
+      "sha256": "8a566f1c4094daa870c428edd81c5f9bae428ce724624c7307702eac7586d2ed",
+      "source_sha256": "2abe80e3b68c4bd27ce33998ce1daf208564579bf4a1f91435d64d5b4403a670",
+      "processing": "Mono PCM16; level adjusted. HomeSound includes an original rising sine triad."
+    },
+    {
+      "name": "GameMusic",
+      "file": "assets/audio/GameMusic.wav",
+      "original": "magic-puzzle.ogg",
+      "author": "MintoDog",
+      "source": "https://opengameart.org/content/magic-puzzle-in-game-1",
+      "license": "CC0-1.0",
+      "rate": 44100,
+      "frames": 5388218,
+      "duration": 122.182,
+      "sha256": "c3f53f6b81e9fbb33ec2a85a351b094d695a149b32ec46728142500a13b51b4e",
+      "source_sha256": "f94f4a6f895f22669dd5ced4061f932e1b5335e40e36d1e94fe7cfc222a4c2b8",
+      "processing": "Mono PCM16; level adjusted. HomeSound includes an original rising sine triad."
+    },
+    {
+      "name": "SlideSound",
+      "file": "assets/audio/SlideSound.wav",
+      "original": "swish/swishes/swish-1.wav",
+      "author": "artisticdude",
+      "source": "https://opengameart.org/content/swishes-sound-pack",
+      "license": "CC0-1.0",
+      "rate": 44100,
+      "frames": 5558,
+      "duration": 0.126,
+      "sha256": "6d1caef9e73933a3c29e81e2b83b96aaef64ba4628fb36533dbd27991fbab396",
+      "source_sha256": "9a15c881345c1ce1c39cc31f52f081c8c4dc81fa41111e0079400f39d3ba0e45",
+      "processing": "Mono PCM16; level adjusted. HomeSound includes an original rising sine triad."
+    },
+    {
+      "name": "EdgeSound",
+      "file": "assets/audio/EdgeSound.wav",
+      "original": "swish/swishes/swish-7.wav",
+      "author": "artisticdude",
+      "source": "https://opengameart.org/content/swishes-sound-pack",
+      "license": "CC0-1.0",
+      "rate": 44100,
+      "frames": 8268,
+      "duration": 0.187,
+      "sha256": "3414c188f827543ae2c4a7790c6c87745837fed01f4d8c591d9a6ef28e2cc758",
+      "source_sha256": "e6de737a34de16afed094d6170d7679149022f149e0a8356d2f029b0e8f4a4d7",
+      "processing": "Mono PCM16; level adjusted. HomeSound includes an original rising sine triad."
+    },
+    {
+      "name": "SplashSound",
+      "file": "assets/audio/SplashSound.wav",
+      "original": "water/splash_01.ogg",
+      "author": "rubberduck",
+      "source": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+      "license": "CC0-1.0",
+      "rate": 48000,
+      "frames": 66292,
+      "duration": 1.381,
+      "sha256": "6acfd3d7e7b03fa333dfe2521fe6106cc14a94b0111e4357696b9e7f88f47ae9",
+      "source_sha256": "156f4df0fa1a552d1c4e451284a55000417ea871954dc4b5e0d4302a49e228a8",
+      "processing": "Mono PCM16; level adjusted. HomeSound includes an original rising sine triad."
+    },
+    {
+      "name": "HomeSound",
+      "file": "assets/audio/HomeSound.wav",
+      "original": "rpg/OGG/handleCoins.ogg",
+      "author": "Kenney",
+      "source": "https://opengameart.org/content/50-rpg-sound-effects",
+      "license": "CC0-1.0",
+      "rate": 48000,
+      "frames": 57600,
+      "duration": 1.2,
+      "sha256": "caf809f528a7002136fb520e951937b3e7226605e813412f32856238846220d2",
+      "source_sha256": "8a91f969e932df709df80ee124d86a51389eed9b67f22e5e716bc2bbf60d8dab",
+      "processing": "Mono PCM16; level adjusted. HomeSound includes an original rising sine triad."
+    },
+    {
+      "name": "ClickSound",
+      "file": "assets/audio/ClickSound.wav",
+      "original": "rpg/OGG/bookFlip1.ogg",
+      "author": "Kenney",
+      "source": "https://opengameart.org/content/50-rpg-sound-effects",
+      "license": "CC0-1.0",
+      "rate": 48000,
+      "frames": 36895,
+      "duration": 0.769,
+      "sha256": "9e33b99e8931bf4efedb44eb052e425b49abe2f671c2ecd704f04c5e76777b1a",
+      "source_sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "processing": "Mono PCM16; level adjusted. HomeSound includes an original rising sine triad."
+    }
+  ]
+}

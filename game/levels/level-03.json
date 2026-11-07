@@ -1,0 +1,10 @@
+{
+  "id": 3,
+  "name": "Icy crossroad",
+  "columns": 6,
+  "rows": 5,
+  "legend": {".": "ice", "#": "rock", "~": "water", "H": "home", "P": "start"},
+  "grid": [".P....", "..#...", "H..#~.", "...#..", ".#...."],
+  "solution": ["down", "right", "up", "left"],
+  "expected_moves": 4
+}

@@ -1,0 +1,1046 @@
+[
+  {
+    "source": "game/ui-source/IceTileL10.svg",
+    "output": "game/project/assets/sprites/IceTileL10/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL11.svg",
+    "output": "game/project/assets/sprites/IceTileL11/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL12.svg",
+    "output": "game/project/assets/sprites/WaterTileL12/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL13.svg",
+    "output": "game/project/assets/sprites/IceTileL13/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL14.svg",
+    "output": "game/project/assets/sprites/IceTileL14/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL15.svg",
+    "output": "game/project/assets/sprites/IceTileL15/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL16.svg",
+    "output": "game/project/assets/sprites/IceTileL16/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL17.svg",
+    "output": "game/project/assets/sprites/IceTileL17/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL18.svg",
+    "output": "game/project/assets/sprites/IceTileL18/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL19.svg",
+    "output": "game/project/assets/sprites/IceTileL19/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL110.svg",
+    "output": "game/project/assets/sprites/IceTileL110/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL111.svg",
+    "output": "game/project/assets/sprites/IceTileL111/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL112.svg",
+    "output": "game/project/assets/sprites/IceTileL112/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL113.svg",
+    "output": "game/project/assets/sprites/IceTileL113/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL114.svg",
+    "output": "game/project/assets/sprites/IceTileL114/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL115.svg",
+    "output": "game/project/assets/sprites/IceTileL115/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL116.svg",
+    "output": "game/project/assets/sprites/IceTileL116/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL117.svg",
+    "output": "game/project/assets/sprites/IceTileL117/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL118.svg",
+    "output": "game/project/assets/sprites/IceTileL118/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL119.svg",
+    "output": "game/project/assets/sprites/WaterTileL119/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL120.svg",
+    "output": "game/project/assets/sprites/IceTileL120/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL121.svg",
+    "output": "game/project/assets/sprites/IceTileL121/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL122.svg",
+    "output": "game/project/assets/sprites/IceTileL122/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL123.svg",
+    "output": "game/project/assets/sprites/IceTileL123/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL124.svg",
+    "output": "game/project/assets/sprites/IceTileL124/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL125.svg",
+    "output": "game/project/assets/sprites/IceTileL125/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL126.svg",
+    "output": "game/project/assets/sprites/IceTileL126/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL127.svg",
+    "output": "game/project/assets/sprites/IceTileL127/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL128.svg",
+    "output": "game/project/assets/sprites/IceTileL128/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL129.svg",
+    "output": "game/project/assets/sprites/IceTileL129/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL20.svg",
+    "output": "game/project/assets/sprites/IceTileL20/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL21.svg",
+    "output": "game/project/assets/sprites/IceTileL21/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL22.svg",
+    "output": "game/project/assets/sprites/WaterTileL22/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL23.svg",
+    "output": "game/project/assets/sprites/IceTileL23/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL24.svg",
+    "output": "game/project/assets/sprites/IceTileL24/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL25.svg",
+    "output": "game/project/assets/sprites/IceTileL25/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL26.svg",
+    "output": "game/project/assets/sprites/IceTileL26/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL27.svg",
+    "output": "game/project/assets/sprites/IceTileL27/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL28.svg",
+    "output": "game/project/assets/sprites/IceTileL28/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL29.svg",
+    "output": "game/project/assets/sprites/IceTileL29/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL210.svg",
+    "output": "game/project/assets/sprites/IceTileL210/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL211.svg",
+    "output": "game/project/assets/sprites/IceTileL211/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL212.svg",
+    "output": "game/project/assets/sprites/IceTileL212/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL213.svg",
+    "output": "game/project/assets/sprites/IceTileL213/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL214.svg",
+    "output": "game/project/assets/sprites/IceTileL214/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL215.svg",
+    "output": "game/project/assets/sprites/IceTileL215/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL216.svg",
+    "output": "game/project/assets/sprites/IceTileL216/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL217.svg",
+    "output": "game/project/assets/sprites/IceTileL217/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL218.svg",
+    "output": "game/project/assets/sprites/IceTileL218/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL219.svg",
+    "output": "game/project/assets/sprites/IceTileL219/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL220.svg",
+    "output": "game/project/assets/sprites/IceTileL220/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL221.svg",
+    "output": "game/project/assets/sprites/IceTileL221/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL222.svg",
+    "output": "game/project/assets/sprites/IceTileL222/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL223.svg",
+    "output": "game/project/assets/sprites/IceTileL223/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL224.svg",
+    "output": "game/project/assets/sprites/IceTileL224/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL225.svg",
+    "output": "game/project/assets/sprites/IceTileL225/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL226.svg",
+    "output": "game/project/assets/sprites/IceTileL226/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL227.svg",
+    "output": "game/project/assets/sprites/IceTileL227/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL228.svg",
+    "output": "game/project/assets/sprites/IceTileL228/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL229.svg",
+    "output": "game/project/assets/sprites/IceTileL229/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL30.svg",
+    "output": "game/project/assets/sprites/IceTileL30/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL31.svg",
+    "output": "game/project/assets/sprites/IceTileL31/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL32.svg",
+    "output": "game/project/assets/sprites/IceTileL32/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL33.svg",
+    "output": "game/project/assets/sprites/IceTileL33/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL34.svg",
+    "output": "game/project/assets/sprites/IceTileL34/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL35.svg",
+    "output": "game/project/assets/sprites/IceTileL35/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL36.svg",
+    "output": "game/project/assets/sprites/IceTileL36/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL37.svg",
+    "output": "game/project/assets/sprites/IceTileL37/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL38.svg",
+    "output": "game/project/assets/sprites/IceTileL38/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL39.svg",
+    "output": "game/project/assets/sprites/IceTileL39/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL310.svg",
+    "output": "game/project/assets/sprites/IceTileL310/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL311.svg",
+    "output": "game/project/assets/sprites/IceTileL311/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL312.svg",
+    "output": "game/project/assets/sprites/IceTileL312/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL313.svg",
+    "output": "game/project/assets/sprites/IceTileL313/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL314.svg",
+    "output": "game/project/assets/sprites/IceTileL314/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL315.svg",
+    "output": "game/project/assets/sprites/IceTileL315/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL316.svg",
+    "output": "game/project/assets/sprites/WaterTileL316/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL317.svg",
+    "output": "game/project/assets/sprites/IceTileL317/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL318.svg",
+    "output": "game/project/assets/sprites/IceTileL318/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL319.svg",
+    "output": "game/project/assets/sprites/IceTileL319/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL320.svg",
+    "output": "game/project/assets/sprites/IceTileL320/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL321.svg",
+    "output": "game/project/assets/sprites/IceTileL321/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL322.svg",
+    "output": "game/project/assets/sprites/IceTileL322/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL323.svg",
+    "output": "game/project/assets/sprites/IceTileL323/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL324.svg",
+    "output": "game/project/assets/sprites/IceTileL324/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL325.svg",
+    "output": "game/project/assets/sprites/IceTileL325/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL326.svg",
+    "output": "game/project/assets/sprites/IceTileL326/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL327.svg",
+    "output": "game/project/assets/sprites/IceTileL327/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL328.svg",
+    "output": "game/project/assets/sprites/IceTileL328/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL329.svg",
+    "output": "game/project/assets/sprites/IceTileL329/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL40.svg",
+    "output": "game/project/assets/sprites/IceTileL40/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL41.svg",
+    "output": "game/project/assets/sprites/IceTileL41/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL42.svg",
+    "output": "game/project/assets/sprites/IceTileL42/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL43.svg",
+    "output": "game/project/assets/sprites/IceTileL43/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL44.svg",
+    "output": "game/project/assets/sprites/IceTileL44/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL45.svg",
+    "output": "game/project/assets/sprites/IceTileL45/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL46.svg",
+    "output": "game/project/assets/sprites/IceTileL46/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL47.svg",
+    "output": "game/project/assets/sprites/IceTileL47/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL48.svg",
+    "output": "game/project/assets/sprites/IceTileL48/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL49.svg",
+    "output": "game/project/assets/sprites/IceTileL49/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL410.svg",
+    "output": "game/project/assets/sprites/IceTileL410/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL411.svg",
+    "output": "game/project/assets/sprites/IceTileL411/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL412.svg",
+    "output": "game/project/assets/sprites/IceTileL412/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL413.svg",
+    "output": "game/project/assets/sprites/IceTileL413/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL414.svg",
+    "output": "game/project/assets/sprites/IceTileL414/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL415.svg",
+    "output": "game/project/assets/sprites/IceTileL415/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL416.svg",
+    "output": "game/project/assets/sprites/IceTileL416/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL417.svg",
+    "output": "game/project/assets/sprites/IceTileL417/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL418.svg",
+    "output": "game/project/assets/sprites/IceTileL418/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL419.svg",
+    "output": "game/project/assets/sprites/IceTileL419/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL420.svg",
+    "output": "game/project/assets/sprites/IceTileL420/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL421.svg",
+    "output": "game/project/assets/sprites/IceTileL421/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL422.svg",
+    "output": "game/project/assets/sprites/IceTileL422/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL423.svg",
+    "output": "game/project/assets/sprites/IceTileL423/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL424.svg",
+    "output": "game/project/assets/sprites/WaterTileL424/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL425.svg",
+    "output": "game/project/assets/sprites/IceTileL425/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL426.svg",
+    "output": "game/project/assets/sprites/IceTileL426/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL427.svg",
+    "output": "game/project/assets/sprites/IceTileL427/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL428.svg",
+    "output": "game/project/assets/sprites/IceTileL428/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL429.svg",
+    "output": "game/project/assets/sprites/IceTileL429/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL50.svg",
+    "output": "game/project/assets/sprites/IceTileL50/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL51.svg",
+    "output": "game/project/assets/sprites/IceTileL51/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL52.svg",
+    "output": "game/project/assets/sprites/IceTileL52/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL53.svg",
+    "output": "game/project/assets/sprites/IceTileL53/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL54.svg",
+    "output": "game/project/assets/sprites/IceTileL54/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL55.svg",
+    "output": "game/project/assets/sprites/IceTileL55/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL56.svg",
+    "output": "game/project/assets/sprites/IceTileL56/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL57.svg",
+    "output": "game/project/assets/sprites/IceTileL57/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL58.svg",
+    "output": "game/project/assets/sprites/IceTileL58/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL59.svg",
+    "output": "game/project/assets/sprites/IceTileL59/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL510.svg",
+    "output": "game/project/assets/sprites/IceTileL510/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL511.svg",
+    "output": "game/project/assets/sprites/WaterTileL511/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL512.svg",
+    "output": "game/project/assets/sprites/WaterTileL512/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL513.svg",
+    "output": "game/project/assets/sprites/IceTileL513/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL514.svg",
+    "output": "game/project/assets/sprites/IceTileL514/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL515.svg",
+    "output": "game/project/assets/sprites/IceTileL515/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL516.svg",
+    "output": "game/project/assets/sprites/IceTileL516/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL517.svg",
+    "output": "game/project/assets/sprites/IceTileL517/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL518.svg",
+    "output": "game/project/assets/sprites/IceTileL518/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL519.svg",
+    "output": "game/project/assets/sprites/IceTileL519/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL520.svg",
+    "output": "game/project/assets/sprites/IceTileL520/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL521.svg",
+    "output": "game/project/assets/sprites/IceTileL521/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL522.svg",
+    "output": "game/project/assets/sprites/IceTileL522/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL523.svg",
+    "output": "game/project/assets/sprites/IceTileL523/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL524.svg",
+    "output": "game/project/assets/sprites/IceTileL524/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL525.svg",
+    "output": "game/project/assets/sprites/IceTileL525/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL526.svg",
+    "output": "game/project/assets/sprites/IceTileL526/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL527.svg",
+    "output": "game/project/assets/sprites/IceTileL527/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterTileL528.svg",
+    "output": "game/project/assets/sprites/WaterTileL528/art.png"
+  },
+  {
+    "source": "game/ui-source/IceTileL529.svg",
+    "output": "game/project/assets/sprites/IceTileL529/art.png"
+  },
+  {
+    "source": "game/ui-source/GameTitle.svg",
+    "output": "game/project/assets/sprites/GameTitle/art.png"
+  },
+  {
+    "source": "game/ui-source/LevelLabel1.svg",
+    "output": "game/project/assets/sprites/LevelLabel1/art.png"
+  },
+  {
+    "source": "game/ui-source/LevelLabel2.svg",
+    "output": "game/project/assets/sprites/LevelLabel2/art.png"
+  },
+  {
+    "source": "game/ui-source/LevelLabel3.svg",
+    "output": "game/project/assets/sprites/LevelLabel3/art.png"
+  },
+  {
+    "source": "game/ui-source/LevelLabel4.svg",
+    "output": "game/project/assets/sprites/LevelLabel4/art.png"
+  },
+  {
+    "source": "game/ui-source/LevelLabel5.svg",
+    "output": "game/project/assets/sprites/LevelLabel5/art.png"
+  },
+  {
+    "source": "game/ui-source/MovesLabel.svg",
+    "output": "game/project/assets/sprites/MovesLabel/art.png"
+  },
+  {
+    "source": "game/ui-source/HomeButton.svg",
+    "output": "game/project/assets/sprites/HomeButton/art.png"
+  },
+  {
+    "source": "game/ui-source/RetryButton.svg",
+    "output": "game/project/assets/sprites/RetryButton/art.png"
+  },
+  {
+    "source": "game/ui-source/GoalHint.svg",
+    "output": "game/project/assets/sprites/GoalHint/art.png"
+  },
+  {
+    "source": "game/ui-source/SlideHint.svg",
+    "output": "game/project/assets/sprites/SlideHint/art.png"
+  },
+  {
+    "source": "game/ui-source/UpButton.svg",
+    "output": "game/project/assets/sprites/UpButton/art.png"
+  },
+  {
+    "source": "game/ui-source/LeftButton.svg",
+    "output": "game/project/assets/sprites/LeftButton/art.png"
+  },
+  {
+    "source": "game/ui-source/RightButton.svg",
+    "output": "game/project/assets/sprites/RightButton/art.png"
+  },
+  {
+    "source": "game/ui-source/DownButton.svg",
+    "output": "game/project/assets/sprites/DownButton/art.png"
+  },
+  {
+    "source": "game/ui-source/RuleHint.svg",
+    "output": "game/project/assets/sprites/RuleHint/art.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit0/9.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit1/9.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit2/9.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit3/9.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit4/9.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit5/9.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit6/9.png"
+  },
+  {
+    "source": "game/ui-source/digit-0.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/0.png"
+  },
+  {
+    "source": "game/ui-source/digit-1.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/1.png"
+  },
+  {
+    "source": "game/ui-source/digit-2.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/2.png"
+  },
+  {
+    "source": "game/ui-source/digit-3.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/3.png"
+  },
+  {
+    "source": "game/ui-source/digit-4.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/4.png"
+  },
+  {
+    "source": "game/ui-source/digit-5.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/5.png"
+  },
+  {
+    "source": "game/ui-source/digit-6.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/6.png"
+  },
+  {
+    "source": "game/ui-source/digit-7.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/7.png"
+  },
+  {
+    "source": "game/ui-source/digit-8.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/8.png"
+  },
+  {
+    "source": "game/ui-source/digit-9.svg",
+    "output": "game/project/assets/sprites/MoveDigit7/9.png"
+  },
+  {
+    "source": "game/ui-source/ResultShade.svg",
+    "output": "game/project/assets/sprites/ResultShade/art.png"
+  },
+  {
+    "source": "game/ui-source/ResultPanel.svg",
+    "output": "game/project/assets/sprites/ResultPanel/art.png"
+  },
+  {
+    "source": "game/ui-source/WinMessage1.svg",
+    "output": "game/project/assets/sprites/WinMessage1/art.png"
+  },
+  {
+    "source": "game/ui-source/WinMessage2.svg",
+    "output": "game/project/assets/sprites/WinMessage2/art.png"
+  },
+  {
+    "source": "game/ui-source/WinMessage3.svg",
+    "output": "game/project/assets/sprites/WinMessage3/art.png"
+  },
+  {
+    "source": "game/ui-source/WinMessage4.svg",
+    "output": "game/project/assets/sprites/WinMessage4/art.png"
+  },
+  {
+    "source": "game/ui-source/WinMessage5.svg",
+    "output": "game/project/assets/sprites/WinMessage5/art.png"
+  },
+  {
+    "source": "game/ui-source/WaterMessage.svg",
+    "output": "game/project/assets/sprites/WaterMessage/art.png"
+  },
+  {
+    "source": "game/ui-source/EdgeMessage.svg",
+    "output": "game/project/assets/sprites/EdgeMessage/art.png"
+  },
+  {
+    "source": "game/ui-source/ResultRetryButton.svg",
+    "output": "game/project/assets/sprites/ResultRetryButton/art.png"
+  },
+  {
+    "source": "game/ui-source/NextButton.svg",
+    "output": "game/project/assets/sprites/NextButton/art.png"
+  },
+  {
+    "source": "game/ui-source/AgainButton.svg",
+    "output": "game/project/assets/sprites/AgainButton/art.png"
+  },
+  {
+    "source": "game/ui-source/ResultHomeButton.svg",
+    "output": "game/project/assets/sprites/ResultHomeButton/art.png"
+  },
+  {
+    "source": "game/ui-source/SoundOnButton.svg",
+    "output": "game/project/assets/sprites/SoundOnButton/art.png"
+  },
+  {
+    "source": "game/ui-source/SoundOffButton.svg",
+    "output": "game/project/assets/sprites/SoundOffButton/art.png"
+  }
+]

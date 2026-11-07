@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "file": "penguin-front.png",
+      "source": "User penguin reference / image generation",
+      "method": "OpenAI image generation tool, 2026-11-07",
+      "notes": "Transparent single front-facing penguin. Runtime costume; original reference unchanged.",
+      "sha256": "3e2f9c5d1628ad6fb20079f4d8be4227f93400164958d0a950c4ed33391362f2"
+    },
+    {
+      "file": "ocean-pastel.png",
+      "source": "User ocean reference / image generation",
+      "method": "OpenAI image generation tool, 2026-11-07",
+      "notes": "Pale aqua 4:3 empty sea background with subdued peripheral decoration.",
+      "sha256": "c669d62eda8dcacde22d3314eca6171810c28101dac895dcb51cd68d5448f445"
+    },
+    {
+      "file": "cover-no-start.png",
+      "source": "assets/source/cover.png",
+      "method": "OpenAI image generation edit, 2026-11-07",
+      "notes": "Removed embedded Start button; separate original Start sprite overlays at runtime.",
+      "sha256": "85982543625e9dfa52a31b0a4df734bf674e65e1b13916cf78de819cfbbe700e"
+    }
+  ],
+  "other_runtime_assets": "Original ice-rock, igloo and start-button copied byte-for-byte. Independent tiles, buttons, labels and result components authored as SVG and rendered to PNG."
+}

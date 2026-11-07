@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="102" viewBox="0 0 72 34">
+<defs>
+ <linearGradient id="ice" x2="0.8" y2="1"><stop stop-color="#f8fdff"/><stop offset="1" stop-color="#d6ecfa"/></linearGradient>
+ <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#d8effd"/><stop offset="1" stop-color="#9fcce7"/></linearGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff0c2"/><stop offset="1" stop-color="#f7d681"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#61afc5"/><stop offset="1" stop-color="#378da8"/></linearGradient>
+</defs><rect x="2" y="4" width="68" height="28" rx="14.0" fill="#7da8bd" opacity=".2"/><rect x="2" y="2" width="68" height="28" rx="14.0" fill="url(#ice)" stroke="#f2fcff" stroke-width="1"/><text x="36" y="21" text-anchor="middle" fill="#456488" font-family="Arial Rounded MT Bold,DejaVu Sans,sans-serif" font-weight="bold" font-size="12">Level 4</text></svg>
