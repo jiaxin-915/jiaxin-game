@@ -1,17 +1,16 @@
-# 企鹅滑冰回家 · Penguin Home Journey
+# Penguin Home Journey
 
-这是一个基于 XGo/spx 与 XBuilder 制作的 4:3 横屏单人滑行解谜游戏。帮助小企鹅在冰面上寻找路线，借助冰岩停下、避开水洞，回到亮着灯的雪屋。
+这是一个基于 XGo/spx 与 XBuilder 制作的 4:3 横屏单人滑行闯关游戏。帮助小企鹅在冰面上寻找路线，借助冰岩停下、避开水洞，回到亮着灯的雪屋。
 
 ## 在线体验
-
-当前版本尚未正式发布。导入下方的 XBuilder 工程包即可试玩；发布后会在这里补充在线体验链接。
+[打开已发布的游戏](https://x.qiniu.com/project/wx_user_ndVsjrwQ/Penguin-Journey)
 
 ## 操作玩法
 
-- 方向键或屏幕箭头：选择方向后持续直线滑行，遇冰岩才会停下。
+- ↑ / ↓ / ← / → 方向键或界面内箭头icon：选择方向后持续直线滑行，遇冰岩才会停下。
 - 点击 Start 或按 Enter：从首页开始游戏。
 - R 或右上角重来按钮：重置当前关卡。
-- Esc 或 Home 按钮：返回首页；结果页按 Enter 执行右侧的主操作。
+- Esc 或 Home 按钮：返回首页。
 - M 或声音按钮：开启/关闭声音。使用键盘前请先点击游戏画面。
 
 每次有效滑行计 1 步；紧贴冰岩朝冰岩方向移动不会计步。滑行途中不能转向，落入水洞或滑出冰面即失败，抵达雪屋即可过关。
@@ -36,7 +35,8 @@
 
 ## 项目归档
 
-- [完整 XBuilder 工程包（v0.3.3）](game/Penguin-Home-Journey-v0.3.3.xbp)：与当前源码对应，可直接导入 XBuilder。
+- [可验证工程包（v0.3.3）](game/Penguin-Home-Journey-v0.3.3.xbp)：与当前源码对应，可直接导入 XBuilder。
+- [完整 XBuilder 导出包](https://github.com/jiaxin-915/jiaxin-game/blob/main/game/archive/Penguin-Journey.xbp)：从已发布的 Penguin Journey 项目重新导出，包含全部源码、精灵、造型、声音、背景和配置，可直接导入 XBuilder 恢复。
 - [工程说明、复现命令与目录结构](game/README.md)
 - [XBuilder 项目目录](game/project/)
 - [试玩、边界检查与版本记录](game/PLAYTEST.md)
@@ -49,4 +49,4 @@
 
 项目使用 480×360 舞台、XGo/spx 脚本与 XBuilder 标准工程结构。`main.spx` 管理格子规则、关卡切换、输入和声音；关卡数据位于 `game/levels/`；每个素材的造型及位置配置位于 `game/project/assets/sprites/`。
 
-本地打包检查会验证工程包与源码逐文件一致；逻辑测试会覆盖全部关卡的已知路线、最短路线、四方向滑动、碰撞、水洞、边缘、重试、关卡切换和声音状态。v0.3.3 已在 XBuilder 完成试玩验收，尚未正式发布。
+本地打包检查会验证工程包与源码逐文件一致；逻辑测试会覆盖全部关卡的已知路线、最短路线、四方向滑动、碰撞、水洞、边缘、重试、关卡切换和声音状态。v0.3.3 已在 XBuilder 完成试玩验收，并且正式发布。
